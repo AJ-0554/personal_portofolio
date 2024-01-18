@@ -1,26 +1,26 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
+import bookstore from "../assets/portfolio/bookstore.jpg";
+import chatylyser from "../assets/portfolio/chatylyser.jpg";
+import virtualPainting from "../assets/portfolio/virtualPainting.jpg";
+import movierecomendation from "../assets/portfolio/movierecomendation.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: bookstore,
     },
     {
       id: 2,
-      src: installNode,
+      src: chatylyser,
     },
     {
       id: 3,
-      src: navbar,
+      src: virtualPainting,
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: movierecomendation,
     },
     
 
